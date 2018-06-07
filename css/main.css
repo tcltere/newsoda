@@ -225,7 +225,7 @@ div.parrafo, h2{
 div.contenedor-video{
     float: right;
     
-    padding: 40px;
+    padding: 35px;
 }
 div.contenedor-imagenes{
     padding: 30px;
@@ -345,6 +345,18 @@ li:hover{
     border-radius: 39px;
 
    
+}
+.Programa-eventos{
+    position: relative;
+    margin-top: 30px;
+}
+
+.detalle-evento{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
 }
 /* ==========================================================================
    Helper classes

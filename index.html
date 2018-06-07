@@ -97,8 +97,10 @@
    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
  </div>
      <div class="contenedor-video">  
+    <video width="400px" height="330px" controls>
+  <source src="img/video/video.mp4" type="video/mp4">
+</video>
  
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/eGrx3tZzjwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    
 
   </div>
@@ -176,34 +178,41 @@
 
  </section>
  <section class="Programa-eventos contenedor" id="programa-eventos">
-
+<section class="programa">
+     <div class="contenedor-video2">
+    <video width="100px" height="100px"  controls autoplay>
+  <source src="img/video/video.mp4" type="video/mp4">
+</video>
   </div>
-   <h1>detalle eventos</h1>
+   </section>
+  </div>
+   
+   
+  
+    <div class="detalle-evento" id="bandas">
+      <h1>detalle eventos</h1>
    <nav class="cronograma">
       <a href="#"><i class="fas fa-music" style="color:red"></i> Bandas</a>
       <a href="#"><i class="fas fa-users" style="color:red"></i>Invitados</a>
       <a href="#"><i class="fas fa-address-card" style="color:red"> </i>Registro</a>
       <a href="#"><i class="fas fa-comment" style="color:red"></i>Comentario</a>
    </nav>
-   <section class="programa">
-     
-   </section>
-   <div id="bandas">
-    <div class="detalle-evento">
       <h3>Banda Tributo</h3>
       <p>"PROFUGOS"</p>
       <p><i class="fas fa-map-marker-alt" style="color:red"></i>  Estadio Nacional</p>
       <p><i class="far fa-clock" style="color:red"></i>  18:30</p>
       <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de julio 2018</p>
+       <button class="ver">Ver todos</button>
+   
     </div>
-     
-   </div>
-  <button class="ver">Ver todos</button>
+    
+  
  </section>
 
  <footer class="pie-de-pagina">
     <p>Copyright &#169; SodaStereo 2018</p>
   </footer>
+  
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
