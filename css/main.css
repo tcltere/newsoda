@@ -1,0 +1,520 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    background: #ccc;
+    font-family:'Open Sans Condensed', sans-serif;
+    background:#000;
+}
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+
+   
+}
+div.hero{
+    background-image: url(../img/soda-stereo-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+div.contenido-header{
+    padding-top: 40px;
+}
+nav.redes-sociales{
+    text-align: center;
+}
+nav.redes-sociales a{
+    color: #fff;
+    font-size:1em; 
+    margin-right: 15px;
+}
+div.info-adicional{
+    text-align: center;
+    color:#866100;
+}
+div.info-adicional p{
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+    margin:40px;
+}
+.eventos-soda{
+    font-family: 'Oswald', sans-serif;
+    font-size: 11.5vw;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+     opacity: 0.5;
+  filter:  alpha(opacity=50);
+  color: #866100;
+}
+p.slogan span{
+    font-weight: bold;
+    color: red;
+}
+div.nav-principal{
+    float: right;
+    text-align: right;
+    display: block;
+    width: 43%;
+    padding-top: 20px;
+}
+div.logo img{
+    width: 30%;
+    float: left;
+}
+div.nav-principal a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    margin-right: 5px;
+    color:#866100;
+    text-transform: uppercase;
+    padding: 3px;
+}
+div.barra{
+    background-color: #ccc;
+    height: 60px;
+}
+div.nav-principal a:hover{
+    background-color: #000;
+    transition: all 2s ease;
+}
+div.nav-principal a:last-child{
+    border:2px solid red;
+    color:red;
+
+}
+
+.seccion h2{
+    color:#000;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 160px;
+}
+.seccion p{
+   color:#866100;
+   text-align: center;
+
+}
+#discografia li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 30px;
+    margin-right: 50px;
+
+}
+#discografia{
+    background:#866100;
+    border-bottom-right-radius: 50px;
+  
+}
+
+h2{
+    text-transform: uppercase;
+    color: #ccc;
+    font-family: 'Oswald', sans-serif;
+    margin-left:390px;
+    opacity: 0.5;
+  filter:  alpha(opacity=50);
+
+}
+.historia{
+    margin-top: 70px;
+   color:#866100;
+   background: #000;
+
+}
+
+.cerati-video{
+     display: inline-block;
+     border:2px solid #866100;
+
+}
+div.parrafo, h2{
+    float: left;
+    width: 30%;
+    color: #866100;
+    margin:60px;
+
+
+}
+ h2{
+    color: red;
+}
+div.contenedor-video{
+    float: right;
+    
+    padding: 40px;
+}
+div.contenedor-imagenes{
+    padding: 30px;
+    margin-left: 20px;
+}
+div.videos{
+    display: inline-block;
+   
+}
+div.texto-videos{
+    float: right;
+    width: 30%;
+    color: #866100;
+}
+.eventos{
+    height: 550px;
+     border:2px solid #866100;
+     background-image: url(../img/grupo2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+    color: #fff;
+    opacity: 0.3;
+  filter:  alpha(opacity=30);
+
+}
+
+.events{
+    float: right;
+    margin-top: 200px;
+   margin-right: 200px;
+  
+    
+}
+
+div.lugar{
+   float: left;
+    margin-top: 200px;
+   margin-right: 200px; 
+  }
+  h1,h3{
+    text-transform:uppercase;
+    color: red;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.3;
+  filter:  alpha(opacity=30);
+ } 
+ .Programa-eventos p{
+    color:#fff;
+ }
+.Programa-eventos a{
+    color:#fff;
+}
+button{
+    background-color: #987828;
+    border-color: black;
+
+}
+button:hover{
+    background:#040402 ;
+    border-color: #987828;
+
+}
+li:hover{
+    color: #CCCCCC;
+}
+
+.btn{
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color:#CCCCCC ;
+    border-color:#987828; 
+}
+.Tarjetas img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    float: left;
+
+}
+
+.texto{
+    margin: 10px;
+    padding: 10px;
+    border-radius:6px;
+    
+
+}
+.texto:hover{
+    color: #987828;
+}
+.tarjetas-img{
+    border: 2px solid #fff;
+    width: 20%;
+    height: 500px;
+    float: left;
+    margin:95px;
+}
+.cover{
+    width: 100%;
+}
+.pie-de-pagina p{
+    padding: 10%;
+    text-align: center;
+    color: #866100;
+}
+.ver{
+    background-color: red;
+    color:#fff;
+    text-align: center;
+   margin-left: 100px;
+    border-radius: 39px;
+
+   
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
