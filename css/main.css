@@ -6,46 +6,12 @@ html {
 }
 
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
 
 
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
 
-/*
- * Remove default fieldset styles.
- */
 
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
+
 
 /*
  * Allow only vertical resizing of textareas.
@@ -70,39 +36,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html{
-    box-sizing: border-box;
-}
-*,*:before,*:after{
-    box-sizing: inherit;
-}
+
 body{
     background: #ccc;
     font-family:'Open Sans Condensed', sans-serif;
-    background:#000;
-}
-.contenedor{
-    width: 90%;
-    margin: 0 auto;
+    background:#000 !important;
+    overflow-x:hidden;
 
-   
+
 }
-div.hero{
+.hero{
     background-image: url(../img/soda-stereo-1.jpg);
-    background-size: cover;
+    background-size:100% 100%;
     height: 100vh;
+
     background-attachment: fixed;
 
 }
-div.contenido-header{
-    padding-top: 40px;
-}
+
 nav.redes-sociales{
     text-align: center;
 }
 nav.redes-sociales a{
-    color: #fff;
-    font-size:1em; 
+    color: #fff!important;
+    font-size:1em;
     margin-right: 15px;
 }
 div.info-adicional{
@@ -135,10 +92,7 @@ div.nav-principal{
     width: 43%;
     padding-top: 20px;
 }
-div.logo img{
-    width: 30%;
-    float: left;
-}
+
 div.nav-principal a{
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
@@ -161,40 +115,31 @@ div.nav-principal a:last-child{
 
 }
 
-.seccion h2{
-    color:#000;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 160px;
-}
+
 .seccion p{
    color:#866100;
    text-align: center;
 
 }
 #discografia li, a{
-    list-style: none;
-    text-decoration: none;
-    color: #000;
+    list-style: none!important;
+    text-decoration: none!important;
+    color: #000!important;
     text-align: right;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-bottom-right-radius: 30px;
-    margin-right: 50px;
-
+    height: 60px;
+    padding-top: 5px;
 }
 #discografia{
     background:#866100;
     border-bottom-right-radius: 50px;
-  
+
 }
 
-h2{
+h3{
+    padding: 5%;
     text-transform: uppercase;
     color: #ccc;
     font-family: 'Oswald', sans-serif;
-    margin-left:390px;
     opacity: 0.5;
   filter:  alpha(opacity=50);
 
@@ -206,40 +151,23 @@ h2{
 
 }
 
-.cerati-video{
-     display: inline-block;
-     border:2px solid #866100;
 
-}
 div.parrafo, h2{
-    float: left;
-    width: 30%;
+
     color: #866100;
-    margin:60px;
-
-
+}
+.cerati-video{
+  padding: 10%;
 }
  h2{
     color: red;
 }
-div.contenedor-video{
-    float: right;
-    
-    padding: 35px;
-}
+
 div.contenedor-imagenes{
     padding: 30px;
     margin-left: 20px;
 }
-div.videos{
-    display: inline-block;
-   
-}
-div.texto-videos{
-    float: right;
-    width: 30%;
-    color: #866100;
-}
+
 .eventos{
     height: 550px;
      border:2px solid #866100;
@@ -253,27 +181,15 @@ div.texto-videos{
 
 }
 
-.events{
-    float: right;
-    margin-top: 200px;
-   margin-right: 200px;
-  
-    
-}
 
-div.lugar{
-   float: left;
-    margin-top: 200px;
-   margin-right: 200px; 
-  }
   h1,h3{
     text-transform:uppercase;
-    color: red;
+    color: red!important;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
-    opacity: 0.3;
+    opacity: 0.5;
   filter:  alpha(opacity=30);
- } 
+ }
  .Programa-eventos p{
     color:#fff;
  }
@@ -301,14 +217,13 @@ li:hover{
 
 }
 .btn:hover{
-    color:#CCCCCC ;
-    border-color:#987828; 
+    color:#CCCCCC !important;
+    border-color:#987828;
 }
 .Tarjetas img{
     width: 100%;
-    height: auto;
-    padding: 5px;
-    float: left;
+    height: 250px;
+
 
 }
 
@@ -316,22 +231,13 @@ li:hover{
     margin: 10px;
     padding: 10px;
     border-radius:6px;
-    
+
 
 }
 .texto:hover{
     color: #987828;
 }
-.tarjetas-img{
-    border: 2px solid #fff;
-    width: 20%;
-    height: 500px;
-    float: left;
-    margin:95px;
-}
-.cover{
-    width: 100%;
-}
+
 .pie-de-pagina p{
     padding: 10%;
     text-align: center;
@@ -344,38 +250,30 @@ li:hover{
    margin-left: 100px;
     border-radius: 39px;
 
-   
+
 }
 .Programa-eventos{
     position: relative;
-    margin-top: 30px;
+
 }
 
 .detalle-evento{
     position: absolute;
     top: 0;
     left:0;
-    width: 100%;
-    height: 100%;
+
+}
+.detalle-evento a{
+  color: #fff!important;
 }
 
-/*#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
 #bandas{
-    
+
     bottom: 0;
     width: 100%;
     padding: 20px;
-}/*
 
-/* Style the button used to pause/play the video */
+}
 #myBtn {
     width: 80px;
     font-size: 18px;
@@ -390,175 +288,16 @@ li:hover{
     background: #ddd;
     color: black;
 }
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
 
-/*
- * Hide visually and from screen readers
- */
+@media (max-width: 575.98px) {
+  .detalle-evento{
+   font-size: 8px;
 
-.hidden {
-    display: none !important;
-}
+  }
 
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
+   .detalle-evento h3{
+    font-size: 15px;
 
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
-}
+   }
 
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }

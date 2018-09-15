@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  
+
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/fontawesome-all.min.css">
@@ -16,12 +16,13 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Oswald" rel="stylesheet">
  <link rel="icon" type="icon.png" href="icon.png" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
   <header class="site-header">
-    <div class="hero">
-      <div class="contenido-header">
+    <div class="hero container-fluid">
+      <div class="contenido-header ">
         <nav class="redes-sociales">
          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -37,147 +38,177 @@
       </div>
     </div>
   </header>
-  <div class="barra">
-    <div class="contenedor">
-      <div class="logo">
-        <img src="img/898A8276B.png" width="30%" alt="">
-      </div>
-      <div class="nav-principal">
-        <a href="#discografia">Discografía</a>
-        <a href="#historia">Historia</a>
-        <a href="#cerati-video">Cerati</a>
-        <a href="#videos">Videos</a>
-        <a href="#eventos">Eventos</a>
-        <a href="#programa-eventos">Invitados</a>
-        <a href="#">Contacto</a>
-      </div>
-    </div><!---cierre-contenedor--->
-  </div><!---cierre barra--->
+  <div class="barra wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#discografia">Discografía <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#historia">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cerati-video">Cerati</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#eventos">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
 
-  <section class="seccion contenedor">
+  <section class="container-fluid">
+    <div id="discografia" class="container">
+      <div class="row">
+          <div class="col-md-4 ">
+              <img src="img/898A8276B.png" width="80%" alt="">
+            </div>
+        <div class="col-md-4 hidden-xs">
+         <h3 class=text-center>Cronología de una leyenda</h3>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <ul>
+                <li><a href="#">SodaStereo (1984)</a></li>
+                <li><a href="#">Signos (1986)</a></li>
+                <li><a href="#">Ruido blanco (1987)</a></li>
+                <li><a href="#">Doble vida (1988)</a></li>
+                <li><a href="#">Cancion animal (1990)</a></li>
+                <li><a href="#">Confort y musica para Volar (1997)</a></li>
+                <li><a href="#">Me veras volver (2008)</a></li>
+              </ul>
+        </div>
+      </div>
 
-    
-    
-    <div id="discografia">
-      <h2>Cronología de una leyenda</h2>
-       <ul>
-        <li><a href="#">SodaStereo (1984)</a></li>
-        <li><a href="#">Nada personal (1985)</a></li>
-        <li><a href="#">Signos (1986)</a></li>
-        <li><a href="#">Ruido blanco (1987)</a></li>
-        <li><a href="#">Doble vida (1988)</a></li>
-        <li><a href="#">Cancion animal (1990)</a></li>
-        <li><a href="#">Confort y musica para Volar (1997)</a></li>
-        <li><a href="#">Me veras volver (2008)</a></li>        
-      </ul>     
-    </div>       
   </section>
 
-  <section class="historia contenedor" id="historia">
-    <h2>    La mejor banda de rock Latino</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-    <div class="contenedor-imagenes">
-      <img src="img/cersti4.jpeg" width="16%" alt="">
-      <img src="img/soda-stereo.jpg" width="20%" alt="">
-      <img src="img/soda-stereo.jpg" width="20%" alt="">
-      <img src="img/grupo2.jpg" width="13%" alt="">
-      <img src="img/grupo2.jpg" width="13%" alt="">
+  <section class="historia container" id="historia">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="text-center text-danger">Banda de rock Latino</h4>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+      </div>
+      <div class="col-md-12">
+          <img src="img/cersti4.jpeg" width="16%" alt="">
+          <img src="img/soda-stereo.jpg" width="20%" alt="">
+          <img src="img/soda-stereo.jpg" width="20%" alt="">
+          <img src="img/grupo2.jpg" width="13%" alt="">
+          <img src="img/grupo2.jpg" width="13%" alt="">
+      </div>
     </div>
   </section>
-  
- <section class="cerati-video " id="cerati-video">
-  
 
-    
- 
- <div class="parrafo">
-      <h2>Cerati Y la poesía</h2>
-   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
- </div>
-     <div class="contenedor-video">  
-    <video width="400px" height="330px" controls="">
-  <source src="img/video/video.mp4" type="video/mp4">
-</video>
- 
-   
+ <section class="cerati-video container-fluid" id="cerati-video">
+   <div class="container">
+      <div class="row">
+          <div class="col-md-8 col-xs-12 parrafo">
+             <h2 class="text-danger text-center">Cerati Y la poesía</h2>
+             <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+          </div>
+          <div class=" col-md-4 col-sm-12">
+             <video width="400px" height="330px" controls="">
+                <source src="img/video/video.mp4" type="video/mp4">
+             </video>
+           </div>
 
-  </div>
-   
-
-
-<section class="Tarjetas">
-      <div class=" cover">
-       
-          <div class="tarjetas-img container" id="tarjetas">
-            <img src="img/cerati3.jpg" alt="">
-            <h2 class="texto">Frases</h2>
-            <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-            <button class="texto">Ver más</button>
-          </div>          
-    
-       
-          <div class="tarjetas-img">
-            <img src="img/cerati1.jpg" alt="">
-            <h2 class="texto">Poesía</h2>
-            <p class="texto" class="texto"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,  arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-            <button class="texto">Ver más</button>
-          </div>          
-        
-        
-          <div class="tarjetas-img">
-            <img src="img/me veras volver.jpg" alt="">
-            <h2 class="texto">Músico</h2>
-            <p class="texto"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Donec pede justo, fringilla vel, vulputate eget, arcu. In enim justo, rhoncus ut, gbfvfcdds imperdiet a, venenatis vitae, justo. Nullam dictum lasmd lsdmde de lmded felis eu pede mollis pretium.</p>
-            <button class="texto">Ver más</button>
-                
         </div>
-      </div> 
-      </section>     
 
- </section>
 
- <section class="videos contenedor" id="videos">
-   <h2>Videos Populares</h2>
-   <div class="videos">
-     <iframe width="20%" height="315" src="https://www.youtube.com/embed/Z_CFvgoIAyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-     <iframe width="20%" height="315" src="https://www.youtube.com/embed/-jx5vm7QjGY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-     <iframe width="20%" height="315" src="https://www.youtube.com/embed/3TYSwDYhyUw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    </div>
-   <div class="texto-videos">
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo l justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo l justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo l justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+
+<div class="container-fluid Tarjetas">
+    <div class="card-deck">
+        <div class="card border border-warning texto" style="background-color:#000;">
+          <img class="card-img-top tarjetas-img" src="img/cerati3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Frases</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button class="ver">Ver</button>
+
+          </div>
+        </div>
+        <div class="card border border-warning texto"style="background-color:#000;">
+          <img class="card-img-top tarjetas-img" src="img/cerati1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Poesía</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in text below as a natural lead-in text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button class="ver">Ver</button>
+
+          </div>
+        </div>
+        <div class="card border border-warning texto" style="background-color:#000;">
+          <img class="card-img-top tarjetas-img" src="img/me veras volver.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Músico</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+            <button class="ver">Ver</button>
+
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+ <section class="container" id="videos">
+   <h2>Videos Populares</h2>
+   <div class="row">
+     <div class="col-md-4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Z_CFvgoIAyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     </div>
+    <div class="col-md-4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/-jx5vm7QjGY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/3TYSwDYhyUw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
    </div>
  </section>
 
 
  <h2>Proximos eventos</h2>
- <section class="eventos container" id="eventos">
-   
-   <div class="events">
-     <ul>
-  <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de julio 2018</p>
-  <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de agosto 2018</p>
-  <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de septiembre 2018</p>
-  <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de Octubre 2018</p>
-  <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de noviembre 2018</p>
-  <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de diciembre 2018</p>
-</ul>
-   </div>
-   <div class="lugar">
-     <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Santiago, Chile</p>
-     <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Viña del mar, Chile</p>
-     <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Santiago, Chile</p>
-     <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Concepción, Chile</p>
-     <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> San Felipe, Chile</p>
-     <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Santiago, Chile</p>
+ <section class="eventos container-fluid" id="eventos">
+
+   <div class="row">
+     <div class="col-md-3">
+        <ul>
+            <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de julio 2018</p>
+            <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de agosto 2018</p>
+            <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de septiembre 2018</p>
+            <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de Octubre 2018</p>
+            <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de noviembre 2018</p>
+            <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de diciembre 2018</p>
+          </ul>
+
+     </div>
+     <div class="col-md-3">
+           <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Santiago, Chile</p>
+            <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Viña del mar, Chile</p>
+            <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Santiago, Chile</p>
+            <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Concepción, Chile</p>
+            <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> San Felipe, Chile</p>
+            <p class="ciudad"><i class="fas fa-map-marker-alt" style="color:red"></i> Santiago, Chile</p>
+     </div>
    </div>
 
 
  </section>
- <section class="Programa-eventos contenedor" id="programa-eventos">
+ <section class="Programa-eventos" id="programa-eventos">
 <section class="programa">
      <div class="contenedor-video2">
     <video width="100%" height="100%"  autoplay muted loop id="myVideo">
@@ -187,26 +218,29 @@
 
    </section>
 
-   
-  
-    <div class="detalle-evento" id="bandas">
-      <h1>detalle eventos</h1>
-   <nav class="cronograma">
-      <a href="#"><i class="fas fa-music" style="color:red"></i> Bandas</a>
-      <a href="#"><i class="fas fa-users" style="color:red"></i>Invitados</a>
-      <a href="#"><i class="fas fa-address-card" style="color:red"> </i>Registro</a>
-      <a href="#"><i class="fas fa-comment" style="color:red"></i>Comentario</a>
-   </nav>
-      <h3>Banda Tributo</h3>
-      <p>"PROFUGOS"</p>
-      <p><i class="fas fa-map-marker-alt" style="color:red"></i>  Estadio Nacional</p>
-      <p><i class="far fa-clock" style="color:red"></i>  18:30</p>
-      <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de julio 2018</p>
-       <button class="ver">Ver todos</button>
-   
+
+
+    <div class="detalle-evento row" id="bandas">
+      <div class="col-md-4">
+          <h3>detalle eventos</h3>
+          <a href="#"><i class="fas fa-music" style="color:red"></i> Bandas</a>
+          <a href="#"><i class="fas fa-users" style="color:red"></i>Invitados</a>
+          <a href="#"><i class="fas fa-address-card" style="color:red"> </i>Registro</a>
+          <a href="#"><i class="fas fa-comment" style="color:red"></i>Comentario</a>
+      </div>
+      <div class="col-md-12 col-sm-4">
+          <h3>Banda Tributo</h3>
+          <p>"PROFUGOS"</p>
+          <p><i class="fas fa-map-marker-alt" style="color:red"></i>  Estadio Nacional</p>
+          <p><i class="far fa-clock" style="color:red"></i>  18:30</p>
+          <p class="fecha"><i class="far fa-calendar-alt" style="color:red"></i> 5 de julio 2018</p>
+           <button class="ver">Ver todos</button>
+
+      </div>
+
     </div>
-    
- 
+
+
  </section>
 <button id="myBtn" onclick="myFunction()">Pause</button>
  <footer class="pie-de-pagina">
@@ -239,8 +273,8 @@ function myFunction() {
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  
- 
+
+
 </body>
 
 </html>
